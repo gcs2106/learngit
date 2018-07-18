@@ -18,7 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    NSLog(@"修改--bug");
+    NSLog(@"修改--bug--1");
+    NSLog(@"修改--bug--2");
 }
 
 - (void)didReceiveMemoryWarning {
