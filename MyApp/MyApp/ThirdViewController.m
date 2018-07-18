@@ -20,6 +20,9 @@
     NSLog(@"测试分支---123");
     
     NSLog(@"新分支");
+    
+    NSLog(@"修改--bug--1");
+    NSLog(@"修改--bug--2");
 }
 
 - (void)didReceiveMemoryWarning {
