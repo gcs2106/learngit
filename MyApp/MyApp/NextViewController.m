@@ -17,6 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(50, 100, 100, 100)];
+    btn.backgroundColor = [UIColor redColor];
+    [self.view addSubview:btn];
+    [btn addTarget:self action:@selector(onClick) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)onClick {
+    NSLog(@"创建新button");
 }
 
 - (void)didReceiveMemoryWarning {
