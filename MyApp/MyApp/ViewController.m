@@ -26,6 +26,13 @@
 
 - (void)onClick {
     NSLog(@"步骤--1");
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(50, 100, 100, 100)];
+    label.textColor = [UIColor whiteColor];
+    label.backgroundColor = [UIColor redColor];
+    label.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:label];
+    NSLog(@"步骤--2");
 }
 
 
