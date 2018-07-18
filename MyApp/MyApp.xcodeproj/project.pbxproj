@@ -14,6 +14,7 @@
 		6F984C1820FF204600AC6910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F984C1620FF204600AC6910 /* LaunchScreen.storyboard */; };
 		6F984C1B20FF204600AC6910 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F984C1A20FF204600AC6910 /* main.m */; };
 		6F984C2520FF204600AC6910 /* MyAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F984C2420FF204600AC6910 /* MyAppTests.m */; };
+		6F984C3120FF22D700AC6910 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F984C3020FF22D700AC6910 /* NextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		6F984C2020FF204600AC6910 /* MyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F984C2420FF204600AC6910 /* MyAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppTests.m; sourceTree = "<group>"; };
 		6F984C2620FF204600AC6910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F984C2F20FF22D700AC6910 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		6F984C3020FF22D700AC6910 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				6F984C0C20FF204300AC6910 /* AppDelegate.m */,
 				6F984C0E20FF204300AC6910 /* ViewController.h */,
 				6F984C0F20FF204300AC6910 /* ViewController.m */,
+				6F984C2F20FF22D700AC6910 /* NextViewController.h */,
+				6F984C3020FF22D700AC6910 /* NextViewController.m */,
 				6F984C1120FF204300AC6910 /* Main.storyboard */,
 				6F984C1420FF204600AC6910 /* Assets.xcassets */,
 				6F984C1620FF204600AC6910 /* LaunchScreen.storyboard */,
@@ -204,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F984C1020FF204300AC6910 /* ViewController.m in Sources */,
+				6F984C3120FF22D700AC6910 /* NextViewController.m in Sources */,
 				6F984C1B20FF204600AC6910 /* main.m in Sources */,
 				6F984C0D20FF204300AC6910 /* AppDelegate.m in Sources */,
 			);
