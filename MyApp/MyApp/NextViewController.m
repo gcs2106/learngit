@@ -26,6 +26,12 @@
 
 - (void)onClick {
     NSLog(@"创建新button");
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(50, 100, 100, 100)];
+    label.textColor = [UIColor whiteColor];
+    label.backgroundColor = [UIColor redColor];
+    label.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning {
